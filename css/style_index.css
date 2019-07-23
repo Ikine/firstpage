@@ -5,7 +5,7 @@ font-family: 'Roboto Slab', serif;
 
 
 .header {
-    background-image: url(../img/home.png);
+    background-image: url(../home.png);
     background-repeat: no-repeat;
     display: flex;
 }
@@ -74,17 +74,17 @@ font-family: 'Roboto Slab', serif;
 /* end of header */
 
 /* portfolio */
-.portfolio {
+.rea {
     padding: 120px 0;
     display: flex;
 }
 
-.portfolio .section_title {
+.rea .section_title {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.portfolio .section_title h2 {
+.rea .section_title h2 {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 700;
@@ -92,7 +92,7 @@ font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
 }
 
-.portfolio .section_title p {
+.rea .section_title p {
     font-family: cursive;
     color: #777777;
     font-style: italic;
