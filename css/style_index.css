@@ -1,0 +1,205 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+
+.header {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .menu {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+.header .navbar .menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .navbar .menu ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.header .navbar .menu ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header .home {
+    text-align: center;
+    color: white;
+    margin-top: 205px;
+}
+
+.header .home h2 {
+    font-family: 'Montserrat', serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header .home h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.header .home a {
+    background-color: #393839;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* end of header */
+
+/* portfolio */
+.portfolio {
+    padding: 120px 0;
+    display: flex;
+}
+
+.portfolio .section_title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.portfolio .section_title h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.portfolio .section_title p {
+    font-family: cursive;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.row1 .ens {
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.row1 .dev {
+    width: 400px;
+    height: 400px;
+    float: right;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.row2 .asso {
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.row2 .form {
+    width: 400px;
+    height: 400px;
+    float: right;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.row1 img {
+    height: 200px;
+    width: 300px;
+}
+
+.row2 img {
+    height: 200px;
+    width: 300px;
+}
+
+.perso {
+    padding: 120px 0;
+    display: flex;
+}
+
+/* end of portfolio */
+
+/* perso */
+
+.perso .section_title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.perso .section_title h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.perso .section_title p {
+    font-family: cursive;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* end of perso */
+
+/* contact */
+
+.contact {
+    padding: 120px 0;
+    display: flex;
+}
+
+.contact .section_title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact .section_title h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .section_title p {
+    font-family: cursive;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* end of contact */
