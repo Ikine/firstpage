@@ -5,7 +5,7 @@ font-family: 'Roboto Slab', serif;
 
 
 .header {
-    background-image: url(../home.png);
+    background-image: url(../img/home.png);
     background-repeat: no-repeat;
     display: flex;
 }
@@ -73,18 +73,18 @@ font-family: 'Roboto Slab', serif;
 
 /* end of header */
 
-/* portfolio */
-.rea {
+/* expérience */
+.exp {
     padding: 120px 0;
     display: flex;
 }
 
-.rea .section_title {
+.exp .section_title {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.rea .section_title h2 {
+.exp .section_title h2 {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 700;
@@ -92,7 +92,7 @@ font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
 }
 
-.rea .section_title p {
+.exp .section_title p {
     font-family: cursive;
     color: #777777;
     font-style: italic;
@@ -147,7 +147,7 @@ font-family: 'Roboto Slab', serif;
     display: flex;
 }
 
-/* end of portfolio */
+/* end of expérience */
 
 /* perso */
 
