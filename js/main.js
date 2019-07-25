@@ -1,1 +1,1 @@
-alert ("Pensez à vous inscrire et vous connecter pour pouvoir voir le contenu de ce site !");
+alert ("Petite pop-up pour l'acceptation des futurs cookies du contenu de ce site !");
