@@ -2,6 +2,21 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
+p {
+  font-size: 1em;  
+}
+
+h1 {
+  font-size: 2em;  
+}
+
+h2 {
+  font-size: 1.5em;  
+}
+
+h3 {
+  font-size: 1.3em;  
+}
 
 body {
     background-color: beige;
@@ -20,7 +35,6 @@ body {
 .header .navbar .menu {
     float: right;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
     margin-top: 50px;
 }
 
@@ -49,14 +63,12 @@ body {
 
 .header .home h2 {
     font-family: 'Montserrat', serif;
-    font-size: 40px;
     font-weight: 400;
     font-style: italic;
 }
 
 .header .home h1 {
     font-family: 'Roboto Slab', serif;
-    font-size: 70px;
     text-transform: uppercase;
 }
 
@@ -86,7 +98,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 700;
-    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -94,7 +105,6 @@ body {
     font-family: cursive;
     color: #777777;
     font-style: italic;
-    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -158,7 +168,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 700;
-    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -166,7 +175,6 @@ body {
     font-family: cursive;
     color: #777777;
     font-style: italic;
-    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -188,7 +196,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 700;
-    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -196,7 +203,6 @@ body {
     font-family: cursive;
     color: #777777;
     font-style: italic;
-    font-size: 16px;
     margin-bottom: 20px;
 }
 
