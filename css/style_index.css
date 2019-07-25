@@ -3,7 +3,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
 
-
+body {
+    background-color: beige;
+}
 .header {
     background-image: url(../img/home.png);
     background-repeat: no-repeat;
