@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>EPORTFOLIO</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="">Accueil</a></li>
+                        <li><a href="">Développement</a></li>
+                        <li><a href="">Engagement associatif</a></li>
+                        <li><a href="">Formations</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="home">
+                <h1>Enseignement</h1>
+                <h2>Mon parcours comme professeur d'EPS</h2>
+            </div>
+
+        </div>
+
+    </div> <!-- end of header section -->
+
+   
+        <div class="container">
+            
+    </div>
+
+   
+
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>
