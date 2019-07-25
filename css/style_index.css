@@ -41,10 +41,6 @@ body {
     text-transform: uppercase;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .header .home {
     text-align: center;
     color: white;
