@@ -18,6 +18,24 @@ h3 {
   font-size: 1.3em;  
 }
 
+@media screen and (min-width: 900px) {
+    p {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2.6em;
+    }
+}
+
 body {
     background-color: beige;
 }
