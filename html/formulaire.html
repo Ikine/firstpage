@@ -2,14 +2,116 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>En construction</title>
+    <meta charset="utf-8" />
+    <title>Dites m'en plus</title>
+    <link rel="stylesheet" href="../css/style_formulaire.css">
 </head>
 
 <body>
-<h1>Cette partie est en construction</h1>
-   
-</body>
+    <form method="POST" action="traitement.php">
+        <!-- fichier ou va aller l'input -->
+        <p>
+            <fieldset>
+                <legend>Informations obliagatoires</legend>
+                <label for="pseudo">
+                    Veuillez indiquer votre nom ou votre pseudo
+                </label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="votre nom ou pseudo" required="required" maxlength="20" />
+                <span id="pseudo_manquant"></span>
 
+                <br /><br />
+                <label for="email">
+                    Veuillez insérer votre adresse mail
+                </label>
+                <input type="email" name="email" id="mail" placeholder="votre email" required="required" />
+            </fieldset>
+
+            <br /><br />
+            <fieldset>
+
+                <legend>Informations supplémentaires</legend>
+                <label for="tel">
+                    Un numéro de téléphone?
+                </label>
+                <input type="tel" name="tel" id="tel" maxlength="10" placeholder="06XXXXXXXX"/>
+
+                <br /><br />
+
+                <label for="commentaire">
+                    Un commentaire à me faire?
+                </label>
+                <textarea name="commentaire" id="commentaire"></textarea>
+            </fieldset>
+
+            <br /><br />
+
+            <fieldset>
+                <legend>Pourquoi visitez vous cette page?</legend>
+                <br />
+                <input type="checkbox" name="curiosite" id="curiosite" />
+                <label for="curiosite">Curiosité
+                </label>
+                <br />
+                <input type="checkbox" name="recherche" id="recherche" />
+                <label for="recherche">Vous cherchez un modèle de eportfolio?
+                </label>
+                <br />
+                <input type="checkbox" name="interet" id="interet" />
+                <label for="interet">Vous avez eu entre les mains un de mes CV
+                </label>
+
+                <br /><br />
+
+                Ma candidature vous interesse?
+                <input type="radio" name="recrute" value="oui" id="oui" checked="checked" />
+                <label for="oui">
+                    oui
+                </label>
+
+                <input type="radio" name="recrute" value="non" id="non" checked="checked" />
+                <label for="non">
+                    non
+                </label>
+
+                <br /><br />
+
+                <input type="checkbox" name="contact" />
+                <label for="contact">
+                    Je veux être recontacté
+                </label>
+
+                <br /><br />
+
+                D'où venez vous?
+                <select name="pays" id="pays">
+                    <optgroup label="Europe">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="italie">Italie</option>
+                        <option value="allemagne">Allemagne</option>
+                        <option value="angleterre">Angleterre</option>
+                        <option value="suisse">Suisse</option>
+                        <option value="Irlande">Irlande</option>
+                    </optgroup>
+                    <optgroup label="Monde">
+                        <option value="chine">Chine</option>
+                        <option value="afrique">Afrique</option>
+                        <option value="usa">USA</option>
+                        <option value="russie">Russie</option>
+                        <option value="corée">Corée</option>
+                        <option value="autralie">Ausralie</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <br /><br />
+            <div class="bouton">
+                <input type="submit" value="Envoyer" id="envoyer" />
+            </div>
+        </p>
+    </form>
+
+
+</body>
 
 </html>
