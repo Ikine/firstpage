@@ -1,0 +1,20 @@
+body {
+    background-color: beige;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+legend {
+    font-weight: bold;
+}
+
+textarea{
+    width: 550px;
+    height: 100px;
+}
+
+.bouton{
+    float: right;
+}
