@@ -38,19 +38,19 @@ h3 {
 
 @media screen and (min-width:1919px) {
     p {
-        font-size: 0.8em;
+        font-size: 0.5em;
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     h2 {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 0.6em;
     }
 }
 
