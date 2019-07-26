@@ -27,3 +27,7 @@ h1 {
     text-decoration: none;
     margin-top: 1%;
 }
+
+a:visited {
+  color: white;
+}
