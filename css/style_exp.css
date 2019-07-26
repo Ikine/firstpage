@@ -1,0 +1,60 @@
+p {
+    font-size: 1em;
+    font-family: cursive;
+    color: #777777;
+    font-style: normal;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;  
+}
+
+h2 {
+  font-size: 1.5em;  
+}
+
+h3 {
+  font-size: 1.3em;  
+}
+
+@media screen and (width < 1260px) {
+    p {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 2.6em;
+    }
+}
+
+@media screen and (width > 1919px) {
+    p {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+}
+
+body {
+    background-color: beige;
+}
