@@ -22,10 +22,12 @@ textarea{
 h1 {
     background-color: #393839;
     color: white;
+    text-align: center;
     padding: 15px 40px;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 1%;
+    
 }
 
 a:visited {
