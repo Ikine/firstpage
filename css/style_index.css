@@ -18,7 +18,7 @@ h3 {
   font-size: 1.3em;  
 }
 
-@media screen and (max-width: 1260px) {
+@media (width > 1260px) {
     p {
         font-size: 2em;
     }
@@ -36,7 +36,7 @@ h3 {
     }
 }
 
-@media screen and (max-width:1919px) {
+@media (width > 1919px) {
     p {
         font-size: 0.8em;
     }
@@ -89,6 +89,7 @@ body {
     color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
 
 .header .home {
