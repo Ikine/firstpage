@@ -57,4 +57,6 @@ h3 {
 
 body {
     background-color: beige;
+    width: 80%;
+    margin: 10% auto;
 }
