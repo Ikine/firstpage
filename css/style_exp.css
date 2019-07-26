@@ -39,6 +39,10 @@ body {
     margin: 10% auto;
 }
 
+.header {
+    display : flex;
+}
+
 .header .menu {
     float: right;
     font-family: 'Montserrat', sans-serif;
