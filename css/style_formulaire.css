@@ -21,8 +21,7 @@ textarea{
 
 h1 {
     background-color: #393839;
-    color: white;
-    text-transform: uppercase;
+    font-color: white;
     padding: 15px 40px;
     border-radius: 5px;
     text-decoration: none;
