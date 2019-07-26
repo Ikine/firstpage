@@ -18,7 +18,7 @@ h3 {
   font-size: 1.3em;  
 }
 
-@media (width > 1260px) {
+@media screen and (width < 1260px) {
     p {
         font-size: 2em;
     }
@@ -36,7 +36,7 @@ h3 {
     }
 }
 
-@media (width > 1919px) {
+@media screen and (width > 1919px) {
     p {
         font-size: 0.8em;
     }
@@ -68,6 +68,10 @@ body {
     margin: 0 auto;
 }
 
+.navbar {
+    position: fixed;
+}
+
 .header .navbar .menu {
     float: right;
     font-family: 'Montserrat', sans-serif;
@@ -89,7 +93,7 @@ body {
     color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
-    
+    background-color: black;
 }
 
 .header .home {
